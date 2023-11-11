@@ -1,5 +1,4 @@
 # palestineproj.github.io
-
 <html>
 <head>
     <title>Email Link with User Input</title>
