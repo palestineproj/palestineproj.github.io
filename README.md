@@ -1,5 +1,4 @@
 # palestineproj.github.io
-<!DOCTYPE html>
 <html>
 <head>
     <title>Email Link with User Input</title>
@@ -62,7 +61,7 @@
             const defaultMailAppLink = `mailto:${recipient}?subject=${subject}&body=${encodeURIComponent(body)}`;
 
             const emailLinks = `
-                <p><a href="${gmailLink}" target="_blank">Open in Gmail</a></p>
+                <p><a href="${gmailLink}" target="_blank">If on desktop, open in Gmail</a></p>
                 <p><a href="${defaultMailAppLink}">Open in Default Mail App</a></p>
             `;
 
