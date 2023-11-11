@@ -1,15 +1,21 @@
 # palestineproj.github.io
+<!DOCTYPE html>
 <html>
 <head>
     <title>Email Link with User Input</title>
 </head>
 <body>
-<p>Dear Wayne State Community Members,</p>
-<p>The recent events and actions surrounding the Student Senate Resolution 2324-03, also known as the  <a href="https://bloximages.newyork1.vip.townnews.com/thesouthend.wayne.edu/content/tncms/assets/v3/editorial/b/f6/bf68657c-7ab3-11ee-a18a-439462851ee0/6545a243728c3.file.pdf" target="_blank"> Boycott, Divest, and Sanctions (BDS) Resolution</a>, have raised serious concerns about discrimination, suppression, and injustice within our institutions. To address these issues and foster a more just campus community that truly embodies the Wayne State principles, we, the students, have composed a comprehensive letter of grievances that is accessible here: <a href="https://drive.google.com/file/d/1BhJif4Ete3i28si0lPjaReT6gdU82TVg/view?usp=drive_link" target="_blank">Letter of Grievance</a></p>
-<p>This letter encapsulates the collective concerns of students, faculty, staff, and community members who stand remain steadfast against racism and believe in equality, justice, and transparency. In our pursuit of a more inclusive, just, and equitable university environment, it is imperative that our voices are heard and our concerns addressed. We invite you to join us in advocating for positive change at Wayne State University. By sending this email, you will add your voice to the call for change and advocate for a Wayne State University that lives up to its commitment to inclusivity and social progress.</p>
-<p>Your participation can make a meaningful difference in shaping our university's future. We encourage you to take a few moments to read the full letter of grievance and consider joining us in this crucial endeavor.</p>
-<p>Together, we can create a better Wayne State University for all.</p>
-<p>With love,<br>Together as One</p>
+    <p>
+        Dear Wayne State Community Members,
+        <br><br>
+        The recent events and actions surrounding the Student Senate Resolution 2324-03, also known as the Boycott, Divest, and Sanctions (BDS) Resolution, have raised serious concerns about discrimination, suppression, and injustice within our institutions. The BDS Resolution can be accessed here: <a href="https://bloximages.newyork1.vip.townnews.com/thesouthend.wayne.edu/content/tncms/assets/v3/editorial/b/f6/bf68657c-7ab3-11ee-a18a-439462851ee0/6545a243728c3.file.pdf" target="_blank">BDS Resolution (PDF)</a>. To address these issues and foster a more just campus community that truly embodies the Wayne State principles, we, the students, have composed a comprehensive letter of grievances that is accessible here: <a href="https://drive.google.com/file/d/1BhJif4Ete3i28si0lPjaReT6gdU82TVg/view?usp=drive_link" target="_blank">Letter of Grievance (PDF)</a>.
+        <br><br>
+        This letter encapsulates the collective concerns of students, faculty, staff, and community members who stand remain steadfast against racism and believe in equality, justice, and transparency. In our pursuit of a more inclusive, just, and equitable university environment, it is imperative that our voices are heard and our concerns addressed. We invite you to join us in advocating for positive change at Wayne State University. By sending this email, you will add your voice to the call for change and advocate for a Wayne State University that lives up to its commitment to inclusivity and social progress. Your participation can make a meaningful difference in shaping our university's future. We encourage you to take a few moments to read the full letter of grievance and consider joining us in this crucial endeavor.
+        <br><br>
+        With love,
+        <br>
+        Together as One
+    </p>
 
     <form id="emailForm">
         <label for="name">Your Name:</label>
@@ -31,8 +37,6 @@
             <option value="No">No</option>
         </select>
 
-
-
         <button type="button" id="generateEmailLinks">Generate Email Links</button>
     </form>
 
@@ -43,7 +47,7 @@
             const name = document.getElementById('name').value;
             const role = document.getElementById('role').value;
             const wsuMember = document.getElementById('wsuMember').value;
-            const recipient = 'zeinabalghanem@gmail.com,hh0816@wayne.edu';
+            const recipients = 'president@wayne.edu,gx5460@wayne.edu,ac0475@wayne.edu,marilyn.kelly@wayne.edu,bi7880@wayne.edu,co8435@wayne.edu,dp8192@wayne.edu,dana.thomas4@wayne.edu,ab0414@wayne.edu,drpadge@wayne.edu,alex.boesch@wayne.edu,s.khan@wayne.edu,davidstrauss@wayne.edu';
             const subject = 'URGENT: Grievances and Discrimination at Wayne State University';
 
             let body = `${name}\n${role}\n`;
@@ -66,16 +70,9 @@
             body += '5. Proposed Solutions: The constructive solutions to rectify the harm caused and foster a more inclusive and just environment at Wayne State University.\n\n';
             body += 'To review our detailed grievances with the offenses committed and our proposed solutions, please proceed to the complete letter: https://drive.google.com/file/d/1BhJif4Ete3i28si0lPjaReT6gdU82TVg/view?usp=sharing';
 
-            const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${subject}&body=${encodeURIComponent(body)}`;
-            const defaultMailAppLink = `mailto:${recipient}?subject=${subject}&body=${encodeURIComponent(body)}`;
+            const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipients}&su=${subject}&body=${encodeURIComponent(body)}`;
+            const defaultMailAppLink = `mailto:${recipients}?subject=${subject}&body=${encodeURIComponent(body)}`;
 
             const emailLinks = `
                 <p><a href="${gmailLink}" target="_blank">Open in Gmail (Desktop Users) </a></p>
-                <p><a href="${defaultMailAppLink}">Open in Default Mail App</a></p>
-            `;
-
-            document.getElementById('emailLinks').innerHTML = emailLinks;
-        });
-    </script>
-</body>
-</html>
+                <p><a href="${defaultMailApp
