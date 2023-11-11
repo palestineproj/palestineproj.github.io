@@ -70,7 +70,7 @@
             const defaultMailAppLink = `mailto:${recipient}?subject=${subject}&body=${encodeURIComponent(body)}`;
 
             const emailLinks = `
-                <p><a href="${gmailLink}" target="_blank">Open in Gmail</a></p>
+                <p><a href="${gmailLink}" target="_blank">Open in Gmail (Desktop Users) </a></p>
                 <p><a href="${defaultMailAppLink}">Open in Default Mail App</a></p>
             `;
 
