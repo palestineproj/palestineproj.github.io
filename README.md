@@ -4,6 +4,13 @@
     <title>Email Link with User Input</title>
 </head>
 <body>
+<p>Dear Wayne State Community Members,</p>
+<p>The recent events and actions surrounding the Student Senate Resolution 2324-03, also known as the  <a href="https://bloximages.newyork1.vip.townnews.com/thesouthend.wayne.edu/content/tncms/assets/v3/editorial/b/f6/bf68657c-7ab3-11ee-a18a-439462851ee0/6545a243728c3.file.pdf" target="_blank"> Boycott, Divest, and Sanctions (BDS) Resolution</a>, have raised serious concerns about discrimination, suppression, and injustice within our institutions. To address these issues and foster a more just campus community that truly embodies the Wayne State principles, we, the students, have composed a comprehensive letter of grievances that is accessible here: <a href="https://drive.google.com/file/d/1BhJif4Ete3i28si0lPjaReT6gdU82TVg/view?usp=drive_link" target="_blank">Letter of Grievance</a></p>
+<p>This letter encapsulates the collective concerns of students, faculty, staff, and community members who stand remain steadfast against racism and believe in equality, justice, and transparency. In our pursuit of a more inclusive, just, and equitable university environment, it is imperative that our voices are heard and our concerns addressed. We invite you to join us in advocating for positive change at Wayne State University. By sending this email, you will add your voice to the call for change and advocate for a Wayne State University that lives up to its commitment to inclusivity and social progress.</p>
+<p>Your participation can make a meaningful difference in shaping our university's future. We encourage you to take a few moments to read the full letter of grievance and consider joining us in this crucial endeavor.</p>
+<p>Together, we can create a better Wayne State University for all.</p>
+<p>With love,<br>Together as One</p>
+
     <form id="emailForm">
         <label for="name">Your Name:</label>
         <input type="text" id="name" required>
@@ -23,11 +30,7 @@
             <option value="Yes">Yes</option>
             <option value="No">No</option>
         </select>
-<p>Dear Wayne State Community Members,</p>
-<p>The recent events and actions surrounding the Student Senate Resolution 2324-03, also known as the Boycott, Divest, and Sanctions (BDS) Resolution, have raised serious concerns about discrimination, suppression, and injustice within our institutions. To address these issues and foster a more just campus community that truly embodies the Wayne State principles, we, the students, have composed a comprehensive letter of grievances that is accessible here: <a href="https://drive.google.com/file/d/1BhJif4Ete3i28si0lPjaReT6gdU82TVg/view?usp=drive_link" target="_blank">Letter of Grievance</a></p>
-<p>This letter encapsulates the collective concerns of students, faculty, staff, and community members who stand remain steadfast against racism and believe in equality, justice, and transparency. In our pursuit of a more inclusive, just, and equitable university environment, it is imperative that our voices are heard and our concerns addressed. We invite you to join us in advocating for positive change at Wayne State University. By sending this email, you will add your voice to the call for change and advocate for a Wayne State University that lives up to its commitment to inclusivity and social progress.</p>
-<p>Your participation can make a meaningful difference in shaping our university's future. We encourage you to take a few moments to read the full letter of grievance and consider joining us in this crucial endeavor.</p>
-<p>With love,<br>Together as One</p>
+
 
 
         <button type="button" id="generateEmailLinks">Generate Email Links</button>
