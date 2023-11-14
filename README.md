@@ -46,7 +46,7 @@
             const name = document.getElementById('name').value;
             const role = document.getElementById('role').value;
             const wsuMember = document.getElementById('wsuMember').value;
-            const recipients = 'president@wayne.edu,gx5460@wayne.edu,ac0475@wayne.edu,marilyn.kelly@wayne.edu,bi7880@wayne.edu,co8435@wayne.edu,dp8192@wayne.edu,dana.thomas4@wayne.edu,ab0414@wayne.edu,drpadge@wayne.edu,alex.boesch@wayne.edu,s.khan@wayne.edu,davidstrauss@wayne.edu';
+            const recipients = 'president@wayne.edu,gx5460@wayne.edu,ac0475@wayne.edu,marilyn.kelly@wayne.edu,bi7880@wayne.edu,co8435@wayne.edu,dp8192@wayne.edu,dana.thomas4@wayne.edu,ab0414@wayne.edu,drpadge@wayne.edu,alex.boesch@wayne.edu,s.khan@wayne.edu,davidstrauss@wayne.edu, isnotrealwsu@gmail.com';
             const subject = 'URGENT: Grievances and Discrimination at Wayne State University';
 
             let body = `${name}\n${role}\n`;
